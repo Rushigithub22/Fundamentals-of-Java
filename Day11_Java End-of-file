@@ -1,0 +1,8 @@
+End Of File is the special data or delimiter which will set the end of file for a specific file. 
+This file contains different types of data from text to image but the end of the file is the same for all of them. 
+End Of File can be also expressed as EOF in a short form. EOF is also used in different programming languages in order to express and check the end of the file.
+Checking the end of the file is important especially developing applications. 
+While reading a file to process, print or view we need to check the end of file in some cases especially in low-level operations.
+Java programming language provides different functions in order to read, write files. 
+In Java when a file is read the value generally stored in a variable like a String. If the end of the file is reached the returned value will be a null which is simply nothing.
+We can check the end of the file if the returned value is null like below.
