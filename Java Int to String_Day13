@@ -1,0 +1,21 @@
+Java Int to String
+
+The String.valueOf() method converts int to String. 
+The valueOf() is the static method of String class. The signature of valueOf() method is given below:
+
+Java int to String Example using Integer.toString()
+
+Let's see the simple code to convert int to String in java using Integer.toString() method.
+
+int i=10;  
+String s=Integer.toString(i);//Now it will return "10"
+
+Let's see the simple example of converting String to int in java.
+
+public class IntToStringExample2{  
+public static void main(String args[]){  
+int i=200;  
+String s=Integer.toString(i);  
+System.out.println(i+100);//300 because + is binary plus operator  
+System.out.println(s+100);//200100 because + is string concatenation operator  
+}}  
