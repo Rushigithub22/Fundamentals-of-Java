@@ -1,0 +1,20 @@
+string-reverse
+Following are some interesting facts about String and StringBuilder classes : 
+
+Objects of String are immutable. 
+String class in Java does not have reverse() method, however, the StringBuilder class has built-in reverse() method. 
+StringBuilder class do not have toCharArray() method, while String class does have toCharArray() method. 
+1. The idea is to traverse the length of the string 
+2. Extract each character while traversing 
+3. Add each character in front of the existing string
+
+Converting String into Bytes: getBytes() method is used to convert the input string into bytes[]. 
+Method:  
+
+1. Create a temporary byte[]  of length equal 
+   to the length of the input string.
+2. Store the bytes (which we get by using 
+   getBytes() method) in reverse order into 
+   the temporary byte[] .
+3. Create a new String abject using byte[] to
+   store result.
